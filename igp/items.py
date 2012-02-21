@@ -5,7 +5,7 @@
 
 from scrapy.item import Item, Field
 
-class Sismo(Item):
+class SismoItem(Item):
     # define the fields for your item here like:
     fecha = Field()
     hora = Field()
