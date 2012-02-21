@@ -1,0 +1,3 @@
+# Sismos Reportados
+
+**url**: http://www.igp.gob.pe/sismologia/sismo/IGPSIS/sismos_reportados.htm
