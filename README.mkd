@@ -1,3 +1,12 @@
 # Sismos Reportados
 
+Este es un ejemplo para demostrar como funciona scrapy.
+
 **url**: http://www.igp.gob.pe/sismologia/sismo/IGPSIS/sismos_reportados.htm
+**dataset**: https://github.com/matiskay/IGP/blob/master/items.json 
+
+
+Este ejemplo fue creado para [Geo Meetup Lima](http://opendata.pe/events/2012/02/21/february-meetup/)
+
+## TODO
+- Crear un spider para http://www.igp.gob.pe/sismologia/sismo/IGPSIS/sis_sens.htm
