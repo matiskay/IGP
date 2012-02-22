@@ -2,8 +2,8 @@
 
 Este es un ejemplo para demostrar como funciona scrapy.
 
-**url**: http://www.igp.gob.pe/sismologia/sismo/IGPSIS/sismos_reportados.htm
-**dataset**: datasets
+- **url**: http://www.igp.gob.pe/sismologia/sismo/IGPSIS/sismos_reportados.htm
+- **dataset**: datasets
 
 
 
@@ -11,12 +11,12 @@ Este es un ejemplo para demostrar como funciona scrapy.
 
 ``` bash
 
-    # json
-    scrapy crawl sismos_reportados -o sismos_reportados.json -t json
+# json
+scrapy crawl sismos_reportados -o sismos_reportados.json -t json
 
 
-    # csv
-    scrapy crawl sismos_reportados -o sismos_reportados.csv -t csv
+# csv
+scrapy crawl sismos_reportados -o sismos_reportados.csv -t csv
 
 ```
 
