@@ -3,10 +3,28 @@
 Este es un ejemplo para demostrar como funciona scrapy.
 
 **url**: http://www.igp.gob.pe/sismologia/sismo/IGPSIS/sismos_reportados.htm
-**dataset**: https://github.com/matiskay/IGP/blob/master/items.json 
+**dataset**: datasets
 
+
+
+## Como actual
+
+``` bash
+
+    # json
+    scrapy crawl sismos_reportados -o sismos_reportados.json -t json
+
+
+    # csv
+    scrapy crawl sismos_reportados -o sismos_reportados.csv -t csv
+
+```
 
 Este ejemplo fue creado para [Geo Meetup Lima](http://opendata.pe/events/2012/02/21/february-meetup/)
 
 ## TODO
 - Crear un spider para http://www.igp.gob.pe/sismologia/sismo/IGPSIS/sis_sens.htm
+
+## Documentacion
+
+- [Scrapy](http://doc.scrapy.org/en/0.14/index.html)
